@@ -37,34 +37,35 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-	'ACTIVE_TOPICS'			=> 'נושאים פעילים',
-	'ANNOUNCEMENTS'			=> 'הכרזות',
+	'ACTIVE_TOPICS'			=> 'Active topics',
+	'ANNOUNCEMENTS'			=> 'Announcements',
 
-	'FORUM_PERMISSIONS'		=> 'הרשאות הפורום',
+	'FORUM_PERMISSIONS'		=> 'Forum permissions',
 
-	'ICON_ANNOUNCEMENT'		=> 'הכרזה',
-	'ICON_STICKY'			=> 'דביק',
+	'ICON_ANNOUNCEMENT'		=> 'Announcement',
+	'ICON_STICKY'			=> 'Sticky',
 
-	'LOGIN_NOTIFY_FORUM'	=> 'קיבלת התראה אודות פורום זה, אנא התחבר על מנת לצפות בו.',
+	'LOGIN_NOTIFY_FORUM'	=> 'You have been notified about this forum, please login to view it.',
 
-	'MARK_TOPICS_READ'		=> 'סמן נושאים כנקראו',
+	'MARK_TOPICS_READ'		=> 'Mark topics read',
 
-	'NEW_POSTS_HOT'			=> 'יש הודעות חדשות [ הודעות חמות ]',	// Not used anymore
-	'NEW_POSTS_LOCKED'		=> 'יש הודעות חדשות [ הודעות נעולות ]',	// Not used anymore
-	'NO_NEW_POSTS_HOT'		=> 'אין הודעות חדשות [ הודעות חמות ]',	// Not used anymore
-	'NO_NEW_POSTS_LOCKED'	=> 'אין הודעות חדשות [ הודעות נעולות ]',	// Not used anymore
-	'NO_READ_ACCESS'		=> 'אין לך את ההרשאות המתאימות על מנת לקרוא הודעות בפורום זה.',
-	'NO_UNREAD_POSTS_HOT'		=> 'אין הודעות שלא נקראו [ הודעות חמות ]',
-	'NO_UNREAD_POSTS_LOCKED'	=> 'אין הודעות שלא נקראו [ הודעות נעולות ]',
+	'NEW_POSTS_HOT'			=> 'New posts [ Popular ]',	// Not used anymore
+	'NEW_POSTS_LOCKED'		=> 'New posts [ Locked ]',	// Not used anymore
+	'NO_NEW_POSTS_HOT'		=> 'No new posts [ Popular ]',	// Not used anymore
+	'NO_NEW_POSTS_LOCKED'	=> 'No new posts [ Locked ]',	// Not used anymore
+	'NO_READ_ACCESS'		=> 'You do not have the required permissions to view or read topics within this forum.',
+	'NO_FORUMS_IN_CATEGORY'	=> 'This category has no forums.',
+	'NO_UNREAD_POSTS_HOT'		=> 'No unread posts [ Popular ]',
+	'NO_UNREAD_POSTS_LOCKED'	=> 'No unread posts [ Locked ]',
 
-	'POST_FORUM_LOCKED'		=> 'הפורום נעול',
+	'POST_FORUM_LOCKED'		=> 'Forum is locked',
 
-	'TOPICS_MARKED'			=> 'הנושאים בפורום זה סומנו כנקראו.',
+	'TOPICS_MARKED'			=> 'The topics for this forum have now been marked read.',
 
-	'UNREAD_POSTS_HOT'		=> 'הודעות שלא נקראו [ הודעות חמות ]',
-	'UNREAD_POSTS_LOCKED'	=> 'הודעות שלא נקראו [ הודעות נעולות ]',
+	'UNREAD_POSTS_HOT'		=> 'Unread posts [ Popular ]',
+	'UNREAD_POSTS_LOCKED'	=> 'Unread posts [ Locked ]',
 
-	'VIEW_FORUM'			=> 'צפה בפורום',
+	'VIEW_FORUM'			=> 'View forum',
 	'VIEW_FORUM_TOPICS'		=> array(
 		1	=> '%d topic',
 		2	=> '%d topics',
