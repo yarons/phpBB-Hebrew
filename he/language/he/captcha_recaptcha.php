@@ -37,16 +37,16 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-	'RECAPTCHA_LANG'				=> 'he',
-	'RECAPTCHA_NOT_AVAILABLE'		=> 'בשביל להשתמש בreCaptcha, אתה חייב לצור חשבון ב<a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a>.',
+	'RECAPTCHA_LANG'				=> 'en-GB', // Find the language/country code on https://developers.google.com/recaptcha/docs/language - If no code exists for your language you can use "en" or leave the string empty
+	'RECAPTCHA_NOT_AVAILABLE'		=> 'In order to use reCaptcha, you must create an account on <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a>.',
 	'CAPTCHA_RECAPTCHA'				=> 'reCaptcha',
 	'RECAPTCHA_INCORRECT'			=> 'The solution you provided was incorrect',
 	'RECAPTCHA_NOSCRIPT'			=> 'Please enable JavaScript in your browser to load the challenge.',
 
-	'RECAPTCHA_PUBLIC'				=> 'מפתח reCaptcha ציבורי',
-	'RECAPTCHA_PUBLIC_EXPLAIN'		=> 'מפתח הreCaptcha הציבורי שלך. ניתן לקבל מפתחות ב<a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a>.',
-	'RECAPTCHA_PRIVATE'				=> 'מפתח reCaptcha אישי',
-	'RECAPTCHA_PRIVATE_EXPLAIN'		=> 'מפתח הreCaptcha האישי שלך. ניתן לקבל מפתחות ב<a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a>.',
+	'RECAPTCHA_PUBLIC'				=> 'Site key',
+	'RECAPTCHA_PUBLIC_EXPLAIN'		=> 'Your site reCAPTCHA key. Keys can be obtained on <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a>. Please, use reCAPTCHA v2 &gt; Invisible reCAPTCHA badge type.',
+	'RECAPTCHA_PRIVATE'				=> 'Secret key',
+	'RECAPTCHA_PRIVATE_EXPLAIN'		=> 'Your secret reCAPTCHA key. Keys can be obtained on <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a>. Please, use reCAPTCHA v2 &gt; Invisible reCAPTCHA badge type.',
 
-	'RECAPTCHA_EXPLAIN'				=> 'בניסיון למנוע שליחות אוטומטיות, אנו דורשים כי תקליד את הטקסט המוצג לשדה הטקסט מתחת.',
+	'RECAPTCHA_INVISIBLE'			=> 'This CAPTCHA is actually invisible. To verify that it works, a small icon should appear in right bottom corner of this page.',
 ));
