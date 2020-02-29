@@ -57,6 +57,7 @@ $lang = array_merge($lang, array(
 	'CLI_DESCRIPTION_DISABLE_EXTENSION'			=> 'מכבה את התוספת הספציפית.',
 	'CLI_DESCRIPTION_ENABLE_EXTENSION'			=> 'מדליק את התוספת הספציפית.',
 	'CLI_DESCRIPTION_FIND_MIGRATIONS'			=> 'מוצא הגירות שלא תלויות אחת בשנייה.',
+	'CLI_DESCRIPTION_FIX_LEFT_RIGHT_IDS'		=> 'Repairs the tree structure of the forums and modules.',
 	'CLI_DESCRIPTION_GET_CONFIG'				=> 'מוצא את הערך של אפשרות של הגדרה',
 	'CLI_DESCRIPTION_INCREMENT_CONFIG'			=> 'מגדיל את הערך של האפשרות של ההגדרה',
 	'CLI_DESCRIPTION_LIST_EXTENSIONS'			=> 'מארגן ברשימה את כל התוספות שבמאגר ובקבצי המערכת.',
@@ -77,8 +78,6 @@ $lang = array_merge($lang, array(
 	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_RANGE_SIZE'	=> 'Approximate number of records to process at a time',
 	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_RESUME'		=> 'Start reparsing where the last execution stopped',
 
-	'CLI_DESCRIPTION_RECALCULATE_EMAIL_HASH'			=> 'מחשב מחדש את ה-user_email_hash column של טבלת users',
-
 	'CLI_DESCRIPTION_SET_ATOMIC_CONFIG'					=> 'מציב ערך של אפשרות של הגדרה רק אם הישן תואם את הערך הנוכחי',
 	'CLI_DESCRIPTION_SET_CONFIG'						=> 'מציב ערך של אפשרות של הגדרה',
 
@@ -90,6 +89,8 @@ $lang = array_merge($lang, array(
 	'CLI_DESCRIPTION_UPDATE_CHECK_ARGUMENT_1'		=> 'Name of the extension to check (if all, checks all the extensions)',
 	'CLI_DESCRIPTION_UPDATE_CHECK_OPTION_CACHE'		=> 'Run check command with cache.',
 	'CLI_DESCRIPTION_UPDATE_CHECK_OPTION_STABILITY'	=> 'Run command choosing to check only stable or unstable versions.',
+
+	'CLI_DESCRIPTION_UPDATE_HASH_BCRYPT'		=> 'Updates outdated password hashes to be hashed with bcrypt.',
 
 	'CLI_ERROR_INVALID_STABILITY' => '"%s" is not a valid stability.',
 
@@ -114,17 +115,20 @@ $lang = array_merge($lang, array(
 	'CLI_EXTENSION_ENABLE_FAILURE'		=> 'לא ניתן היה להדליק את התוספת %s',
 	'CLI_EXTENSION_ENABLE_SUCCESS'		=> 'התוספת %s הופעלה בהצלחה ',
 	'CLI_EXTENSION_ENABLED'				=> 'Extension %s is already enabled',
+	'CLI_EXTENSION_NOT_EXIST'			=> 'Extension %s does not exist',
 	'CLI_EXTENSION_NAME'				=> 'שמה של התוספת',
 	'CLI_EXTENSION_PURGE_FAILURE'		=> 'לא ניתן היה לאפס את התוספת %s',
 	'CLI_EXTENSION_PURGE_SUCCESS'		=> 'התוספת %s אופסה בהצלחה',
 	'CLI_EXTENSION_UPDATE_FAILURE'		=> 'עדכון התוסף %s נכשל',
 	'CLI_EXTENSION_UPDATE_SUCCESS'		=> 'עדכון התוסף %s בוצע בהצלחה',
 	'CLI_EXTENSION_NOT_FOUND'			=> 'לא נמצאו תוספות.',
+	'CLI_EXTENSION_NOT_ENABLEABLE'		=> 'Extension %s is not enableable.',
 	'CLI_EXTENSIONS_AVAILABLE'			=> 'זמין',
 	'CLI_EXTENSIONS_DISABLED'			=> 'מכובה',
 	'CLI_EXTENSIONS_ENABLED'			=> 'דלוק',
 
-	'CLI_FIXUP_RECALCULATE_EMAIL_HASH_SUCCESS'	=> 'גיבובי המיילים חושבו מחדש בהצלחה.',
+	'CLI_FIXUP_FIX_LEFT_RIGHT_IDS_SUCCESS'		=> 'Successfully repaired the tree structure of the forums and modules.',
+	'CLI_FIXUP_UPDATE_HASH_BCRYPT_SUCCESS'		=> 'Successfully updated outdated password hashes to bcrypt.',
 
 	'CLI_MIGRATION_NAME'					=> 'Migration name, including the namespace (use forward slashes instead of backslashes to avoid problems).',
 	'CLI_MIGRATIONS_AVAILABLE'				=> 'Available migrations',
@@ -157,6 +161,18 @@ $lang = array_merge($lang, array(
 		1	=> 'Re-cleaning complete. %d username was cleaned.',
 		2	=> 'Re-cleaning complete. %d usernames were cleaned.',
 	],
+
+	'CLI_DESCRIPTION_EXTENSION_MANAGE'					=> 'Manages an extension',
+	'CLI_DESCRIPTION_EXTENSION_MANAGE_ARGUMENT'			=> 'Extension to manage',
+	'CLI_DESCRIPTION_EXTENSION_INSTALL'					=> 'Install the specified extension(s).',
+	'CLI_DESCRIPTION_EXTENSION_INSTALL_OPTION_ENABLE'	=> 'Enable extension(s) after installation',
+	'CLI_DESCRIPTION_EXTENSION_INSTALL_ARGUMENT'		=> 'Extension(s) to install, e.g.: vendor/package',
+	'CLI_DESCRIPTION_EXTENSION_LIST_AVAILABLE'			=> 'List extensions available for installation.',
+	'CLI_DESCRIPTION_EXTENSION_REMOVE'					=> 'Remove the specified extension(s).',
+	'CLI_DESCRIPTION_EXTENSION_REMOVE_OPTION_PURGE'		=> 'Purge extension(s) when removing them',
+	'CLI_DESCRIPTION_EXTENSION_REMOVE_ARGUMENT'			=> 'Extension(s) to remove, e.g.: vendor/package',
+	'CLI_DESCRIPTION_EXTENSION_UPDATE'					=> 'Update the specified extension(s).',
+	'CLI_DESCRIPTION_EXTENSION_UPDATE_ARGUMENT'			=> 'Extension(s) to update, e.g.: vendor/package',
 ));
 
 // Additional help for commands.
