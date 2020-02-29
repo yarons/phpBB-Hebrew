@@ -39,7 +39,7 @@ if (empty($lang) || !is_array($lang))
 // Common installer pages
 $lang = array_merge($lang, array(
 	'INSTALL_PANEL'	=> 'Installation Panel',
-	'SELECT_LANG'	=> 'Select language',
+	'SELECT_LANG'	=> 'בחירת שפה',
 
 	'STAGE_INSTALL'	=> 'Installing phpBB',
 
@@ -83,7 +83,7 @@ $lang = array_merge($lang, array(
 	'ACP_LINK'	=> 'Take me to <a href="%1$s">the ACP</a>',
 
 	'INSTALL_PHPBB_INSTALLED'		=> 'phpBB is already installed.',
-	'INSTALL_PHPBB_NOT_INSTALLED'	=> 'phpBB is not installed yet.'
+	'INSTALL_PHPBB_NOT_INSTALLED'	=> 'phpBB is not installed yet.',
 ));
 
 // Requirements translation
@@ -119,7 +119,7 @@ $lang = array_merge($lang, array(
 
 	'RETEST_REQUIREMENTS'	=> 'Retest requirements',
 
-	'STAGE_REQUIREMENTS'	=> 'Check requirements'
+	'STAGE_REQUIREMENTS'	=> 'Check requirements',
 ));
 
 // General error messages
@@ -186,19 +186,20 @@ $lang = array_merge($lang, array(
 	// Database options
 	'DB_OPTION_MSSQL_ODBC'	=> 'MSSQL Server 2000+ via ODBC',
 	'DB_OPTION_MSSQLNATIVE'	=> 'MSSQL Server 2005+ [ Native ]',
-	'DB_OPTION_MYSQL'		=> 'MySQL',
 	'DB_OPTION_MYSQLI'		=> 'MySQL with MySQLi Extension',
 	'DB_OPTION_ORACLE'		=> 'Oracle',
 	'DB_OPTION_POSTGRES'	=> 'PostgreSQL',
 	'DB_OPTION_SQLITE3'		=> 'SQLite 3',
 
 	// Errors
+	'INST_ERR_DB'					=> 'Database installation error',
 	'INST_ERR_NO_DB'				=> 'Cannot load the PHP module for the selected database type.',
 	'INST_ERR_DB_INVALID_PREFIX'	=> 'The prefix you entered is invalid. It must start with a letter and must only contain letters, numbers and underscores.',
 	'INST_ERR_PREFIX_TOO_LONG'		=> 'The table prefix you have specified is too long. The maximum length is %d characters.',
 	'INST_ERR_DB_NO_NAME'			=> 'No database name specified.',
 	'INST_ERR_DB_FORUM_PATH'		=> 'The database file specified is within your board directory tree. You should put this file in a non web-accessible location.',
 	'INST_ERR_DB_CONNECT'			=> 'Could not connect to the database, see error message below.',
+	'INST_ERR_DB_NO_WRITABLE'		=> 'Both the database and the directory containing it must be writable.',
 	'INST_ERR_DB_NO_ERROR'			=> 'No error message given.',
 	'INST_ERR_PREFIX'				=> 'Tables with the specified prefix already exist, please choose an alternative.',
 	'INST_ERR_DB_NO_MYSQLI'			=> 'The version of MySQL installed on this machine is incompatible with the “MySQL with MySQLi Extension” option you have selected. Please try the “MySQL” option instead.',
