@@ -37,24 +37,22 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-	'APPROVE'								=> 'אשר',
-	'ATTACHMENT'						=> 'קובץ מצורף',
-	'ATTACHMENT_FUNCTIONALITY_DISABLED'	=> 'האפשרות לצירוף קבצים בוטלה.',
+	'APPROVE'								=> 'Approve',
+	'ATTACHMENT'						=> 'Attachment',
+	'ATTACHMENT_FUNCTIONALITY_DISABLED'	=> 'The attachments feature has been disabled.',
 
-	'BOOKMARK_ADDED'		=> 'הנושא נוסף למועדפים בהצלחה.',
-	'BOOKMARK_ERR'			=> 'הוספת הנושא למועדפים נכשלה. אנא נסה שנית.',
-	'BOOKMARK_REMOVED'		=> 'הנושא הוסר מהמועדפים בהצלחה.',
-	'BOOKMARK_TOPIC'		=> 'הוסף למועדפים',
-	'BOOKMARK_TOPIC_REMOVE'	=> 'הסר ממועדפים',
-	'BUMPED_BY'				=> 'הוקפץ לאחרונה על ידי %1$s בתאריך %2$s.',
-	'BUMP_TOPIC'			=> 'הקפץ נושא',
+	'BOOKMARK_ADDED'		=> 'Bookmarked topic successfully.',
+	'BOOKMARK_ERR'			=> 'Bookmarking the topic failed. Please try again.',
+	'BOOKMARK_REMOVED'		=> 'Removed bookmarked topic successfully.',
+	'BOOKMARK_TOPIC'		=> 'Bookmark topic',
+	'BOOKMARK_TOPIC_REMOVE'	=> 'Remove from bookmarks',
+	'BUMPED_BY'				=> 'Last bumped by %1$s on %2$s.',
+	'BUMP_TOPIC'			=> 'Bump topic',
 
-	'CODE'					=> 'קוד',
-
-	'DELETE_TOPIC'			=> 'מחק נושא',
-	'DELETED_INFORMATION'	=> 'נמחק על ידי %1$s ב %2$s',
-	'DISAPPROVE'					=> 'אל תאשר',
-	'DOWNLOAD_NOTICE'		=> 'אין לך את ההרשאות המתאימות על מנת לצפות בקבצים המצורפים להודעה זאת.',
+	'DELETE_TOPIC'			=> 'Delete topic',
+	'DELETED_INFORMATION'	=> 'Deleted by %1$s on %2$s',
+	'DISAPPROVE'					=> 'Disapprove',
+	'DOWNLOAD_NOTICE'		=> 'You do not have the required permissions to view the files attached to this post.',
 
 	'EDITED_TIMES_TOTAL'	=> array(
 		1	=> 'Last edited by %2$s on %3$s, edited %1$d time in total.',
@@ -88,6 +86,7 @@ $lang = array_merge($lang, array(
 	'NO_UNREAD_POSTS'		=> 'There are no new unread posts for this topic.',
 	'NO_VOTE_OPTION'		=> 'You must specify an option when voting.',
 	'NO_VOTES'				=> 'No votes',
+	'NO_AUTH_PRINT_TOPIC'	=> 'You are not authorised to print topics.',
 
 	'POLL_ENDED_AT'			=> 'Poll ended at %s',
 	'POLL_RUN_TILL'			=> 'Poll runs till %s',
@@ -97,7 +96,6 @@ $lang = array_merge($lang, array(
 
 	'QUICK_MOD'				=> 'Quick-mod tools',
 	'QUICKREPLY'			=> 'Quick Reply',
-	'QUOTE'					=> 'Quote',
 
 	'REPLY_TO_TOPIC'		=> 'Reply to topic',
 	'RESTORE'				=> 'Restore',
