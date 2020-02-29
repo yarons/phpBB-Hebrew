@@ -39,11 +39,11 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, array(
 	'PLUPLOAD_ADD_FILES'		=> 'הוסף קבצים',
-	'PLUPLOAD_ADD_FILES_TO_QUEUE'	=> 'הוסף קבצים ולחץ על לחצן ההפעלה…',
+	'PLUPLOAD_ADD_FILES_TO_QUEUE'	=> 'יש להוסיף קבצים לתור ההעלאה וללחוץ על כפתור ההתחלה.',
 	'PLUPLOAD_ALREADY_QUEUED'	=> '%s כבר קיים.',
 	'PLUPLOAD_CLOSE'			=> 'סגור',
 	'PLUPLOAD_DRAG'				=> 'גרור את הקבצים לכאן.',
-	'PLUPLOAD_DUPLICATE_ERROR'	=> 'שגיאת קובץ כפול',
+	'PLUPLOAD_DUPLICATE_ERROR'	=> 'שגיאת קובץ כפול.',
 	'PLUPLOAD_DRAG_TEXTAREA'	=> 'ניתן לצרף קבצים על ידי גרירה ושחרורם בתיבת ההודעה.',
 	'PLUPLOAD_ERR_INPUT'		=> 'לא הצליח, נכשל.',
 	'PLUPLOAD_ERR_MOVE_UPLOADED'	=> 'ניסיון העלאת הקובץ נכשל.',
@@ -51,7 +51,7 @@ $lang = array_merge($lang, array(
 	'PLUPLOAD_ERR_FILE_TOO_LARGE'	=> 'קובץ גדול מדי:',
 	'PLUPLOAD_ERR_FILE_COUNT'	=> 'שגיאת העלאה.',
 	'PLUPLOAD_ERR_FILE_INVALID_EXT'	=> 'סיומת קובץ לא חוקית:',
-	'PLUPLOAD_ERR_RUNTIME_MEMORY'	=> 'אין מספיק זכרון באחסון, נסו מאוחר יותר.',
+	'PLUPLOAD_ERR_RUNTIME_MEMORY'	=> 'אין מספיק זיכרון באחסון, נא לנסות מאוחר יותר.',
 	'PLUPLOAD_ERR_UPLOAD_URL'	=> 'הקישור שהעלת עשויה להיות שגויה או אינה קיימת.',
 	'PLUPLOAD_EXTENSION_ERROR'	=> 'שגיאה בסיומת הקובץ.',
 	'PLUPLOAD_FILE'				=> 'קובץ: %s',
