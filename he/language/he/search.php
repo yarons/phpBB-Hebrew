@@ -37,10 +37,10 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-	'ALL_AVAILABLE'			=> 'כל התווים',
-	'ALL_RESULTS'			=> 'כל התוצאות',
+	'ALL_AVAILABLE'			=> 'All available',
+	'ALL_RESULTS'			=> 'All results',
 
-	'DISPLAY_RESULTS'		=> 'הצג את תוצאות החיפוש כ',
+	'DISPLAY_RESULTS'		=> 'Display results as',
 
 	'FOUND_SEARCH_MATCHES'		=> array(
 		1	=> 'Search found %d match',
