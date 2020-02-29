@@ -41,14 +41,14 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, array(
-	'TRANSLATION_INFO'	=> 'מבוסס על <a href="http://www.phpbb.co.il">phpBB.co.il - פורומים בעברית</a>. כל הזכויות שמורות &copy; 2014 - phpBB.co.il.',
+	'TRANSLATION_INFO'	=> '',
 	'DIRECTION'			=> 'rtl',
 	'DATE_FORMAT'		=> '|d M Y|',	// 01 Jan 2007 (with Relative days enabled)
 	'DATETIME_FORMAT'	=> '|d M Y, H:i|',	// 01 Jan 2007, 13:37 (with Relative days enabled)
 	'USER_LANG'			=> 'he',
 
 	// You can define different rules for the determination of plural forms here.
-	// See http://wiki.phpbb.com/Plural_Rules for more information
+	// See https://area51.phpbb.com/docs/dev/32x/language/plurals.html for more information
 	// or ask the translation manager for help.
 	'PLURAL_RULE'		=> 1,
 
@@ -62,7 +62,6 @@ $lang = array_merge($lang, array(
 
 	'ACCOUNT_ALREADY_ACTIVATED'		=> 'חשבונך כבר הופעל.',
 	'ACCOUNT_DEACTIVATED'			=> 'חשבונך הופסק ידנית וניתן להפעלה מחדש על־ידי מנהל ראשי בלבד.',
-	'ACCOUNT_NOT_ACTIVATED'			=> 'חשבונך עדיין לא הופעל.',
 	'ACP'							=> 'לוח בקרה למנהל הראשי',
 	'ACP_SHORT'						=> 'ACP',
 	'ACTIVE'						=> 'פעיל',
@@ -92,8 +91,10 @@ $lang = array_merge($lang, array(
 	'ATTACHED_IMAGE_NOT_IMAGE'		=> 'קובץ התמונה אשר ניסית לצרף אינו חוקי.',
 	'AUTHOR'						=> 'מחבר',
 	'AUTH_NO_PROFILE_CREATED'		=> 'המערכת לא הצליחה ליצור פרופיל משתמש.',
+	'AUTH_PROVIDER_OAUTH_ERROR_ALREADY_LINKED'				=> 'This external service is already associated with another board account.',
 	'AUTH_PROVIDER_OAUTH_ERROR_INVALID_ENTRY'				=> 'פרטי מאגר נתונים שגויים.',
 	'AUTH_PROVIDER_OAUTH_ERROR_INVALID_SERVICE_TYPE'		=> 'פרטי OAUTH שגויים למטפ בשירות.',
+	'AUTH_PROVIDER_OAUTH_ERROR_REQUEST'						=> 'Something went wrong when processing your OAuth request.',
 	'AUTH_PROVIDER_OAUTH_ERROR_SERVICE_NOT_CREATED'			=> 'שירות OAuth לא נוצר',
 	'AUTH_PROVIDER_OAUTH_SERVICE_BITLY'						=> 'Bitly',
 	'AUTH_PROVIDER_OAUTH_SERVICE_FACEBOOK'					=> 'Facebook',
@@ -138,8 +139,10 @@ $lang = array_merge($lang, array(
 		1	=> 'Users browsing this forum: %2$s and %1$d guest',
 		2	=> 'Users browsing this forum: %2$s and %1$d guests',
 	),
+	'BUTTON_DELETE'         => 'Delete',
 	'BUTTON_EDIT'			=> 'Edit',
 	'BUTTON_FORUM_LOCKED'	=> 'Locked',
+	'BUTTON_INFORMATION'    => 'Information',
 	'BUTTON_NEW_TOPIC'		=> 'New Topic',
 	'BUTTON_PM'				=> 'PM',
 	'BUTTON_PM_FORWARD'		=> 'Forward',
@@ -148,7 +151,9 @@ $lang = array_merge($lang, array(
 	'BUTTON_PM_REPLY_ALL'	=> 'Reply All',
 	'BUTTON_POST_REPLY'		=> 'Post Reply',
 	'BUTTON_QUOTE'			=> 'Quote',
+	'BUTTON_REPORT'         => 'Report',
 	'BUTTON_TOPIC_LOCKED'	=> 'Locked',
+	'BUTTON_WARN'           => 'Warn',
 	'BYTES'					=> 'Bytes',
 	'BYTES_SHORT'			=> 'B',
 
@@ -163,6 +168,7 @@ $lang = array_merge($lang, array(
 	),
 	'COLLAPSE_VIEW'			=> 'Collapse view',
 	'CLOSE_WINDOW'			=> 'Close window',
+	'CODE'					=> 'Code',
 	'COLOUR_SWATCH'			=> 'Colour swatch',
 	'COLON'					=> ':',
 	'COMMA_SEPARATOR'		=> ', ',	// Comma used to join lists into a single string, use localised comma if appropriate, eg: Ideographic or Arabic
@@ -200,6 +206,7 @@ $lang = array_merge($lang, array(
 	'DISPLAY_MESSAGES'		=> 'Display messages from previous',
 	'DISPLAY_POSTS'			=> 'Display posts from previous',
 	'DISPLAY_TOPICS'		=> 'Display topics from previous',
+	'DOMAIN_NO_MX_RECORD_EMAIL'	=> 'The entered email domain has no valid MX record.',
 	'DOWNLOADED'			=> 'Downloaded',
 	'DOWNLOADING_FILE'		=> 'Downloading file',
 	'DOWNLOAD_COUNTS'		=> array(
@@ -262,6 +269,17 @@ $lang = array_merge($lang, array(
 	'FROM'					=> 'from',
 	'FSOCK_DISABLED'		=> 'The operation could not be completed because the <var>fsockopen</var> function has been disabled or the server being queried could not be found.',
 	'FSOCK_TIMEOUT'			=> 'A timeout occurred while reading from the network stream.',
+
+	'FILESYSTEM_CANNOT_CHANGE_FILE_GROUP'		=> 'Unable to change file group',
+	'FILESYSTEM_CANNOT_CHANGE_FILE_PERMISSIONS'	=> 'Unable to change file permissions',
+	'FILESYSTEM_CANNOT_COPY_FILES'				=> 'Unable to copy files',
+	'FILESYSTEM_CANNOT_CREATE_SYMLINK'			=> 'Unable to create a symlink',
+	'FILESYSTEM_CANNOT_CREATE_DIRECTORY'		=> 'Unable to create directory',
+	'FILESYSTEM_CANNOT_DELETE_FILES'			=> 'Unable to delete files from the system',
+	'FILESYSTEM_CANNOT_DUMP_FILE'				=> 'Unable to dump into file',
+	'FILESYSTEM_CANNOT_MIRROR_DIRECTORY'		=> 'Unable to mirror directory',
+	'FILESYSTEM_CANNOT_RENAME_FILE'				=> 'Unable to rename a file from the system',
+	'FILESYSTEM_CANNOT_TOUCH_FILES'				=> 'Unable to create file or change file timestamps',
 
 	'FTP_FSOCK_HOST'				=> 'FTP host',
 	'FTP_FSOCK_HOST_EXPLAIN'		=> 'FTP server used to connect your site.',
@@ -480,7 +498,7 @@ $lang = array_merge($lang, array(
 	'NOTIFICATION_TOPIC_IN_QUEUE'		=> '<strong>Topic approval</strong> request by %1$s:',
 	'NOTIFICATION_TYPE_NOT_EXIST'		=> 'The notification type "%s" is missing from the file system.',
 	'NOTIFICATION_ADMIN_ACTIVATE_USER'	=> '<strong>Activation required</strong> for deactivated or newly registered user: “%1$s”',
-	// Used in conjuction with NOTIFICATION_BOOKMARK and NOTIFICATION_POST.
+	// Used in conjunction with NOTIFICATION_BOOKMARK and NOTIFICATION_POST.
 	'NOTIFICATION_MANY_OTHERS'			=> 'others',
 	'NOTIFICATION_X_OTHERS'				=> array(
 		2	=> '%d others',
@@ -516,6 +534,7 @@ $lang = array_merge($lang, array(
 	'NO_FEED_ENABLED'			=> 'Feeds are not available on this board.',
 	'NO_FEED'					=> 'The requested feed is not available.',
 	'NO_STYLE_DATA'				=> 'Could not get style data',
+	'NO_STYLE_CFG'				=> 'Could not get the style configuration file for: %s',
 	'NO_SUBJECT'				=> 'No subject specified',								// Used for posts having no subject defined but displayed within management pages.
 	'NO_SUCH_SEARCH_MODULE'		=> 'The specified search backend doesn’t exist.',
 	'NO_SUPPORTED_AUTH_METHODS'	=> 'No supported authentication methods.',
@@ -556,6 +575,7 @@ $lang = array_merge($lang, array(
 	),
 	'OPTIONS'					=> 'Options',
 
+	'PAGE_NOT_FOUND'		=> 'The requested page could not be found.',
 	'PAGE_OF'				=> 'Page <strong>%1$d</strong> of <strong>%2$d</strong>',
 	'PAGE_TITLE_NUMBER'		=> 'Page %s',
 	'PASSWORD'				=> 'Password',
@@ -598,11 +618,16 @@ $lang = array_merge($lang, array(
 	'POST_TOPIC'			=> 'Post a new topic',
 	'POST_UNAPPROVED_ACTION'	=> 'Post awaiting approval:',
 	'POST_UNAPPROVED'		=> 'This post has not been approved.',
+	'POST_UNAPPROVED_EXPLAIN'	=> 'This post is not visible to other users until it has been approved by a moderator.',
 	'POWERED_BY'			=> 'Powered by %s',
+
+	'QUOTE'					=> 'Quote',
+
 	'PREVIEW'				=> 'Preview',
 	'PREVIOUS'				=> 'Previous',		// Used in pagination
 	'PREVIOUS_STEP'			=> 'Previous',
 	'PRIVACY'				=> 'Privacy policy',
+	'PRIVACY_LINK'			=> 'Privacy',
 	'PRIVATE_MESSAGE'		=> 'Private message',
 	'PRIVATE_MESSAGES'		=> 'Private messages',
 	'PRIVATE_MESSAGING'		=> 'Private messaging',
@@ -726,7 +751,22 @@ $lang = array_merge($lang, array(
 	'SUBJECT'					=> 'Subject',
 	'SUBMIT'					=> 'Submit',
 
+	'STORAGE_ADAPTER_NOT_AVAILABLE'	=> 'Selected storage is not available.',
+	'STORAGE_FILE_EXISTS'			=> 'File already exists.',
+	'STORAGE_FILE_NO_EXIST'			=> 'File does not exist.',
+	'STORAGE_CANNOT_WRITE_FILE'		=> 'Can not write to file.',
+	'STORAGE_CANNOT_READ_FILE'		=> 'Can not read file.',
+	'STORAGE_CANNOT_DELETE'			=> 'Can not delete file or folder.',
+	'STORAGE_CANNOT_RENAME'			=> 'Can not rename file or folder.',
+	'STORAGE_CANNOT_COPY'			=> 'Can not copy file or folder.',
+	'STORAGE_CANNOT_COPY_RESOURCE'	=> 'Can not copy resource.',
+	'STORAGE_CANNOT_CREATE_DIR'		=> 'Can not create directory.',
+	'STORAGE_CANNOT_OPEN_FILE'		=> 'Can not open file.',
+	'STORAGE_CANNOT_CREATE_FILE'	=> 'Can not create file.',
+	'STORAGE_INVALID_RESOURCE'		=> 'Resource is invalid.',
+
 	'TB'				=> 'TB',
+	'TERMS_LINK'		=> 'Terms',
 	'TERMS_USE'			=> 'Terms of use',
 	'TEST_CONNECTION'	=> 'Test connection',
 	'THE_TEAM'			=> 'The team',
@@ -774,6 +814,10 @@ $lang = array_merge($lang, array(
 	'TOPIC_REVIEW'		=> 'Topic review',
 	'TOPIC_TITLE'		=> 'Topic title',
 	'TOPIC_UNAPPROVED'	=> 'This topic has not been approved.',
+	'TOPIC_UNAPPROVED_FORUM'	=> array(
+		1	=> 'Topic awaiting approval',
+		2	=> 'Topics awaiting approval',
+	),
 	'TOPIC_DELETED'		=> 'This topic has been deleted.',
 	'TOTAL_ATTACHMENTS'	=> 'Attachment(s)',
 	'TOTAL_LOGS'		=> array(
