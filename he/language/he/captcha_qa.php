@@ -37,28 +37,28 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-	'CAPTCHA_QA'				=> 'שאלות ותשובות',
-	'CONFIRM_QUESTION_EXPLAIN'	=> 'שאלת אימות זו היא אמצעי למניעת שליחה אוטומטית של טפסים על ידי בוטים.',
-	'CONFIRM_QUESTION_WRONG'	=> 'התשובה שסיפקת לשאלת האימות איננה נכונה.',
-	'CONFIRM_QUESTION_MISSING'	=> 'שאלות עבור שאלת האימות לא התקבלו. אנא צור קשר עם מנהל המערכת.',
+	'CAPTCHA_QA'				=> 'Q&amp;A',
+	'CONFIRM_QUESTION_EXPLAIN'	=> 'This question is a means of preventing automated form submissions by spambots.',
+	'CONFIRM_QUESTION_WRONG'	=> 'You have provided an invalid answer to the question.',
+	'CONFIRM_QUESTION_MISSING'	=> 'Questions for the captcha could not be retrieved. Please contact a board administrator.',
 
-	'QUESTION_ANSWERS'			=> 'תשובות',
-	'ANSWERS_EXPLAIN'			=> 'אנא הכנס תשובות נכונות לשאלה, אחת בכל שורה.',
-	'CONFIRM_QUESTION'			=> 'שאלת אימות',
+	'QUESTION_ANSWERS'			=> 'Answers',
+	'ANSWERS_EXPLAIN'			=> 'Please enter valid answers to the question, one per line.',
+	'CONFIRM_QUESTION'			=> 'Question',
 
-	'ANSWER'					=> 'תשובה',
-	'EDIT_QUESTION'				=> 'ערוך שאלה',
-	'QUESTIONS'					=> 'שאלות',
-	'QUESTIONS_EXPLAIN'			=> 'בכל טופס שליחה שבו אפשרת את התוספת שאלות ותשובות, משתמשים ישאלו אחת מן השאלות המצוינות כאן. כדי להשתמש בתוסף, לפחות אחת מן השאלות צריכה להיות מוגדרת לשפת ברירת המחדל. שאלות אלו צריכות להיות קלות למענה על ידי קהל היעד שלך, אבל מעבר ליכולת של רובוט המסוגל להריץ חיפוש בגוגל™. שימוש במאגר גדול של שאלות שמשתנה בקביעות יפיק את התוצאות הטובות ביותר. אפשר את אפשרות האימות הנוקשה אם התשובה שלך דורשת הקפדה על אותיות רישיות/קטנות, סימני פיסוק או רווחים.',
-	'QUESTION_DELETED'			=> 'השאלה נמחקה',
-	'QUESTION_LANG'				=> 'שפה',
-	'QUESTION_LANG_EXPLAIN'		=> 'השפה שבהן השאלה והתשובה כתובות.',
-	'QUESTION_STRICT'			=> 'אימות נוקשה',
-	'QUESTION_STRICT_EXPLAIN'	=> 'אפשר בכדי לפסול שינויים באותיות רישיות/גדולות, סימני פיסוק ורווחים.',
+	'ANSWER'					=> 'Answer',
+	'EDIT_QUESTION'				=> 'Edit Question',
+	'QUESTIONS'					=> 'Questions',
+	'QUESTIONS_EXPLAIN'			=> 'For every form submission where you have enabled the Q&amp;A plugin, users will be asked one of the questions specified here. To use this plugin at least one question must be set in the default language. These questions should be easy for your target audience to answer but beyond the ability of a bot capable of running a Google™ search. Only a single proper question is necessary. If you start receiving spam registrations, the question should be changed. Enable the strict setting if your question relies on mixed case, punctuation or whitespace.',
+	'QUESTION_DELETED'			=> 'Question deleted',
+	'QUESTION_LANG'				=> 'Language',
+	'QUESTION_LANG_EXPLAIN'		=> 'The language this question and its answers are written in.',
+	'QUESTION_STRICT'			=> 'Strict check',
+	'QUESTION_STRICT_EXPLAIN'	=> 'Enable to enforce mixed case, punctuation and whitespace.',
 
-	'QUESTION_TEXT'				=> 'שאלה',
-	'QUESTION_TEXT_EXPLAIN'		=> 'השאלה שתוצג למשתמש.',
+	'QUESTION_TEXT'				=> 'Question',
+	'QUESTION_TEXT_EXPLAIN'		=> 'The question presented to the user.',
 
-	'QA_ERROR_MSG'				=> 'אנא מלא את כל השדות והכנס לפחות תשובה אחת.',
-	'QA_LAST_QUESTION'			=> 'אתה לא יכול למחוק את כל השאלות בזמן שהרכיב פעיל.',
+	'QA_ERROR_MSG'				=> 'Please fill in all fields and enter at least one answer.',
+	'QA_LAST_QUESTION'			=> 'You cannot delete all questions while the plugin is active.',
 ));
