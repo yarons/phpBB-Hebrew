@@ -88,7 +88,7 @@ $lang = array_merge($lang, array(
 	'IM_SEND'				=> 'שלח הודעה',
 	'IM_SEND_MESSAGE'		=> 'שלח הודעה',
 	'IM_SENT_JABBER'		=> 'הודעתך ל־%1$s נשלחה בהצלחה.',
-	'IM_USER'				=> 'שלח הודעה מיידית.',
+	'IM_USER'				=> 'שליחת הודעה מיידית',
 
 	'LAST_ACTIVE'				=> 'פעיל לאחרונה',
 	'LESS_THAN'					=> 'פחות מ',
