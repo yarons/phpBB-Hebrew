@@ -38,13 +38,14 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, array(
 	'RECAPTCHA_LANG'				=> 'he', // Find the language/country code on https://developers.google.com/recaptcha/docs/language - If no code exists for your language you can use "en" or leave the string empty
-	'RECAPTCHA_NOT_AVAILABLE'		=> 'בשביל להשתמש בreCaptcha, אתה חייב לצור חשבון ב<a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a>.',
+	'RECAPTCHA_NOT_AVAILABLE'		=> 'בשביל להשתמש ב־reCaptcha, עליך ליצור חשבון ב־<a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a>.',
 	'CAPTCHA_RECAPTCHA'				=> 'reCaptcha',
 	'RECAPTCHA_INCORRECT'			=> 'The solution you provided was incorrect',
 	'RECAPTCHA_NOSCRIPT'			=> 'Please enable JavaScript in your browser to load the challenge.',
 
 	'RECAPTCHA_PUBLIC'				=> 'מפתח reCaptcha ציבורי',
-	'RECAPTCHA_PUBLIC_EXPLAIN'		=> 'מפתח הreCaptcha הציבורי שלך. ניתן לקבל מפתחות ב<a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a>.',
+	'RECAPTCHA_PUBLIC_EXPLAIN'		=> 'מפתח ה־reCaptcha הציבורי שלך. ניתן לקבל מפתחות ב־<a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a>.
+נא להשתמש ב־reCAPTCHA גרסה 2 &gt; סוג עיטור נסתר של reCAPTCHA.',
 	'RECAPTCHA_PRIVATE'				=> 'מפתח reCaptcha אישי',
 	'RECAPTCHA_PRIVATE_EXPLAIN'		=> 'מפתח הreCaptcha האישי שלך. ניתן לקבל מפתחות ב<a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a>.',
 
